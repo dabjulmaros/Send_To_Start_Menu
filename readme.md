@@ -21,6 +21,6 @@ I can do it just a right click, and a left click.
 - [x] add icon
 - [x] update cargo info
 - [x] add util that if runned stand alone, will create a shortcut of self, and send to SendTo
-- [_] do nothing if is folder
-- [_] add some customization options
-- [_] plan further improvements
+- [ ] do nothing if is folder
+- [ ] add some customization options
+- [ ] plan further improvements
