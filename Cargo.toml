@@ -1,0 +1,14 @@
+[package]
+name = "send_to_start"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[build-dependencies]
+winres = "0.1.12"
+[dependencies]
+exitcode = "1.1.2"
+mslnk = "0.1.8"
+easy-args = "0.3.0"
