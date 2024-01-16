@@ -13,7 +13,7 @@ I can do it just a right click, and a left click.
 - Build with cargo (optional)
 - Double click exe, (It will create a shortcut of itself, and place it on %appdata%\Microsoft\Windows\SendTo)
 - rename as desired (Default is Start Menu);
-- The option will be avalible when right click a file or exe
+- The option will be avalible when right click file or folder(folder send to start menu does nothing)
 
 ## TODO
 
@@ -21,6 +21,8 @@ I can do it just a right click, and a left click.
 - [x] add icon
 - [x] update cargo info
 - [x] add util that if runned stand alone, will create a shortcut of self, and send to SendTo
-- [ ] do nothing if is folder
+- [x] do nothing if is folder
+- [x] switch off strings to paths
+- [x] add a sound if shortcut creation is a success or fails
 - [ ] add some customization options
 - [ ] plan further improvements
